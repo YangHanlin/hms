@@ -2,16 +2,13 @@
 
 #include "HMS.h"
 
-#include <iostream>
-#include <fstream>
-#include <vector>
 #include <cstdlib>
-#include <cstring>
 
 using std::cout;
 using std::endl;
 
 int main() {
+	system("cls");
 	initUserArray();
 	Form loginScreen;
 	initLoginScreen(loginScreen);

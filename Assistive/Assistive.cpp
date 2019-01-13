@@ -1118,6 +1118,7 @@ int backToLastMenu(Form &src) {
 }
 
 int exitFromSystem(Form &src) {
+    system("cls");
     exit(0);
 }
 
